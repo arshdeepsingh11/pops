@@ -1,7 +1,7 @@
 "use client";
 
+import * as React from "react";
 import Image from "next/image";
-import React from "react";
 import { Search as SearchIcon, QrCode, Video, Play } from "lucide-react";
 
 type MediaItem = {
@@ -29,7 +29,7 @@ const ITEMS: MediaItem[] = [
   { id: "15", src: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f", alt: "Bulb glow",        kind: "image" }
 ];
 
-export default function SearchPage(): JSX.Element {
+export default function SearchPage() {
   const [query, setQuery] = React.useState("");
 
   const list = query.trim()
