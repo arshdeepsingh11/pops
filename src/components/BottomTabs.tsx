@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 type Item = {
   href: string;
   label: string;
-  icon: (active: boolean) => React.ReactNode; // ← was JSX.Element
+  icon: (active: boolean) => React.ReactNode; // ✅ fixed
 };
 
 const SIZE = 22;
