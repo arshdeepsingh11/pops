@@ -1,0 +1,15 @@
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="POPS orbit logo">
+  <defs>
+    <linearGradient id="gradOrbit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="200" fill="#000"/>
+  <!-- Planet O -->
+  <circle cx="130" cy="100" r="40" fill="none" stroke="url(#gradOrbit)" stroke-width="8"/>
+  <!-- Orbit ring -->
+  <ellipse cx="130" cy="100" rx="60" ry="25" stroke="url(#gradOrbit)" stroke-width="4" fill="none"/>
+  <!-- Wordmark -->
+  <text x="220" y="115" font-family="Poppins, sans-serif" font-size="72" font-weight="700" fill="url(#gradOrbit)">POPS</text>
+</svg>
